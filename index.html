@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Virtual Wardrobe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bar top-bar">
+      <span class="left-text">Virtual wardrobe</span>
+      <span class="center-text">Fall fashion</span>
+    </div>
+
+    <div class="wardrobe-container">
+      <div class="outfit-preview">
+        <img id="topImage" src="https://i.postimg.cc/RhM5X01N/top1.jpg" alt="Prenda superior" />
+        <div class="buttons">
+          <button onclick="changeTop()">
+            <!-- SVG LEFT -->
+            <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512">
+              <path fill="#000000"
+                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+            </svg>
+          </button>
+          <button onclick="changeTop()">
+            <!-- SVG RIGHT -->
+            <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512">
+              <path fill="#000000"
+                d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+            </svg>
+          </button>
+        </div>
+        <img id="bottomImage" src="https://i.postimg.cc/YCzHLV5p/bottom1.jpg" alt="Prenda inferior" />
+        <div class="buttons">
+          <button onclick="changeBottom()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512">
+              <path fill="#000000"
+                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+            </svg>
+          </button>
+          <button onclick="changeBottom()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512">
+              <path fill="#000000"
+                d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="bar bottom-bar">
+      <p>Shoes jewerly scarves pantyhose pants sweaters Shoes jewerly scarves</p>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="https://codepen.io/Ivana-G/pen/oggQXoR" target="_blank" rel="noopener noreferrer"
+        style="color: #fff; background: #2b2039; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-family: 'Press Start 2P'; display: inline-block;">
+        Ver guardarropa virtual
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
